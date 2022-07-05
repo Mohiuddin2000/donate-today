@@ -1,0 +1,136 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 140%;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 30px
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.aline {
+    text-align: center;
+}
+
+.marge {
+    margin-bottom: 50px;
+}
+
+.button {
+    border: none;
+    color: white;
+    background-image: linear-gradient(red, tomato);
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.first {
+    height: 600px;
+    background: url(picture/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 110px;
+    color: white;
+}
+
+.second {
+    display: flex;
+    margin-left: 20%;
+    margin-bottom: 30px;
+}
+
+.second_first {
+    border-radius: 5px;
+    margin-left: 15px;
+    width: 13%;
+    padding: 20px 5px;
+    color: rgb(71, 78, 84);
+    background-color: rgb(232, 236, 239);
+}
+
+.second_first_special {
+    background-color: rgb(255, 193, 202);
+    border: 2px solid rgb(216, 49, 77);
+    color: rgb(216, 49, 77);
+}
+
+.second_second {
+    text-align: center;
+    width: 50%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(119, 113, 113);
+}
+
+.third {
+    display: flex;
+    margin-left: 7%;
+    margin-bottom: 50px;
+
+}
+
+.third_first {
+    border-radius: 5px;
+    margin-left: 25px;
+    width: 27%;
+    padding: 50px 10px 20px 10px;
+    color: rgb(71, 78, 84);
+    background-color: rgb(232, 236, 239);
+}
+
+#third_second {
+    background-color: rgb(252, 224, 228);
+}
+
+#third_third {
+    background-color: rgb(255, 242, 197);
+}
+
+.fifth {
+    width: 50%;
+    margin-left: 25%;
+    height: 200px;
+    background-color: rgb(255, 242, 197);
+    margin-bottom: 50px;
+}
+
+.form_special {
+    width: 40%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(196, 205, 213);
+    margin-right: 0;
+}
+
+.email_submit {
+    padding-top: 90px;
+    text-align: center;
+}
+
+.bottom {
+    padding-top: 20px;
+    background-color: black;
+    height: 200px;
+    width: 100%;
+}
+
+.font_special {
+    font-family: 'Dancing Script', 'cursive';
+    color: red;
+}
