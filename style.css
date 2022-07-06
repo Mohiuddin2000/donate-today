@@ -20,15 +20,21 @@ h4 {
     font-size: 25px;
 }
 
+.p_font {
+    font-size: 20px;
+    font-family: 'Dancing Script', 'cursive';
+}
+
 .aline {
     text-align: center;
 }
 
 .marge {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .button {
+    height: 37px;
     border: none;
     color: white;
     background-image: linear-gradient(red, tomato);
@@ -74,13 +80,14 @@ h4 {
     margin-bottom: 30px;
     margin-top: 20px;
     border: none;
+    outline: 0;
     border-bottom: 1px solid rgb(119, 113, 113);
 }
 
 .third {
     display: flex;
     margin-left: 7%;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 
 }
 
@@ -101,21 +108,45 @@ h4 {
     background-color: rgb(255, 242, 197);
 }
 
+.fourth {
+    margin-left: 35%;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.fourth_first {
+    width: 15%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#fourth_second {
+    background-color: rgb(245, 242, 242);
+}
+
 .fifth {
     width: 50%;
     margin-left: 25%;
     height: 200px;
     background-color: rgb(255, 242, 197);
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .form_special {
     width: 40%;
     height: 35px;
-    border-radius: 5px;
     border: none;
+    outline: 0;
     background-color: rgb(196, 205, 213);
-    margin-right: 0;
+    margin-right: -5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#subs {
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .email_submit {
